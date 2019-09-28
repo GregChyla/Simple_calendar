@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         LocalDate data = LocalDate.now();
-        System.out.println(data);
+
         int today = data.getDayOfMonth();
         int month = data.getMonthValue();
 
