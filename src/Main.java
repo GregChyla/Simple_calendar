@@ -14,7 +14,7 @@ public class Main {
         int weekdayValue = data.getDayOfWeek().getValue();
 
         System.out.println(" Mon, Tue, Wed, Thu, Fri, Sat, Sun");
-        System.out.println("-----------------------------------");
+        System.out.println("----------------------------------");
         if (weekdayValue > 1){
             for (int i = 0; i < weekdayValue-1 ; i++) {
                 System.out.print("     "); //put leading spaces if month starts after Monday
